@@ -40,6 +40,14 @@
           }
           color:gray;
           font-size: 16px;
+          .icon {
+            display: flex;
+            align-items: center;
+            span {
+              scale: .75;
+              fill: gray;
+            }
+          }
         }
       }
 

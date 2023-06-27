@@ -5,11 +5,11 @@
         <div class="name">
           <h2>BHUWAN POUDEL</h2>
           <h4>Front End Developer</h4>
-          <p class="contacts">
-            <span>+45 81916893</span>
-            <span>@bkspoudel@gmail.com</span>
-            <span>Copenhagen, Denmark</span>
-          </p>
+          <div class="contacts">
+            <p class="icon"> <span [smSvgIcon]="'phone'"></span> +45 81916893</p>
+            <p class="icon"> <span [smSvgIcon]="'email'"></span> bkspoudel@gmail.com</p>
+            <p class="icon"> <span [smSvgIcon]="'location'"></span> Copenhagen, Denmark</p>
+          </div>
         </div>
         <app-each-section-exp [data]="data"></app-each-section-exp>
       </div>

@@ -7,6 +7,7 @@ import { ContainerModule } from 'src/app/components/container/container.module';
 import { EachSectionExpModule } from 'src/app/components/each-section-exp/each-section-exp.module';
 import { EachSectionSkillModule } from 'src/app/components/each-section-skill/each-section-skill.module';
 import { CommonModule } from '@angular/common';
+import { SvgIconModule } from 'src/app/directives/svg-icon/svg-icon.module';
 
 const appRoutes: Routes = [
   {
@@ -25,6 +26,7 @@ const appRoutes: Routes = [
     EachSectionExpModule,
     EachSectionSkillModule,
     CommonModule,
+    SvgIconModule,
   ],
   exports: [],
   providers: [],
