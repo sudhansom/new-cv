@@ -10,6 +10,7 @@ import { ContainerModule } from 'src/app/components/container/container.module';
   imports: [
     ContainerModule
   ],
+  exports: [Frame1Component],
   providers: [],
   bootstrap: []
 })

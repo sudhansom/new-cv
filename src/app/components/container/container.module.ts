@@ -1,6 +1,5 @@
-import { NgModule } from '@angular/core';
-
-import { ContainerComponent } from './container.component';
+import { NgModule } from "@angular/core";
+import { ContainerComponent } from "./container.component";
 
 @NgModule({
   declarations: [
@@ -8,7 +7,8 @@ import { ContainerComponent } from './container.component';
   ],
   imports: [
   ],
+  exports:[ContainerComponent],
   providers: [],
-  bootstrap: []
+  bootstrap: [],
 })
-export class ContainerModule { }
+export class ContainerModule {}

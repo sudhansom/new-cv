@@ -1,0 +1,91 @@
+:host {
+  .content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    border: 1px solid green;
+
+    .name-section {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 60px calc(var(--content-margin) * 1.5);
+
+      background: white;
+      // background-image: radial-gradient(rgb(221, 217, 217) 4px, transparent 0);
+      // background-size: 10px 10px;
+      // background-position: -19px -19px;
+
+      .name {
+        h2 {
+          font-size: 36px;
+          margin-bottom: 9px;
+          font-weight: 400;
+          color: rgb(77, 76, 76);
+        }
+        h4 {
+          font-size: 24px;
+          margin-bottom: 9px;
+          color: rgb(46, 127, 208);
+          font-weight: 400;
+        }
+        .contacts {
+          display: flex;
+          gap: 1rem;
+          color:gray;
+          font-size: 16px;
+        }
+      }
+
+    }
+
+    .skill-section {
+      background-color: #214263;
+      color: #fff;
+      padding: calc(var(--content-margin) * 1.5);
+      display: flex;
+      flex-direction: column;
+      gap: calc(var(--content-margin) * 1.5);
+
+      .image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin: auto;
+        overflow: hidden;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+        &:hover {
+          scale: 1.5;
+        }
+        img {
+          max-width: 100%;
+          display: block;
+        }
+      }
+
+      .skill {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        .header {
+          font-size: 30px;
+          padding-bottom: 6px;
+          border-bottom: 1px solid #fff;
+        }
+        .sub-header {
+          font-size: 20px;
+          line-height: 1.1;
+        }
+        .description {
+          font-size: 16px;
+          line-height: 1.1;
+        }
+        .date {
+          font-size: 16px;
+          font-style: italic;
+        }
+      }
+    }
+
+  }
+}
