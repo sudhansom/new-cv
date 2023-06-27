@@ -1,9 +1,11 @@
 :host {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--content-margin));
   .each-section {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 16px;
     h2 {
       font-size: 30px;
       font-weight: 400;
@@ -12,11 +14,11 @@
     }
     .header {
       font-size: 20px;
-      color:rgb(41, 108, 190)
+      padding-bottom: 10px;
     }
     .sub-header {
-      font-size: 20px;
-      color:rgb(15, 69, 134)
+      font-size: 16px;
+      color:rgb(17, 141, 224)
     }
     .description {
       font-size: 16px;
@@ -30,6 +32,7 @@
       margin: 0;
       list-style-type: circle;
       color: rgb(47, 45, 45);
+      margin-bottom: 20px;
       li {
         margin: 6px 12px;
       }
