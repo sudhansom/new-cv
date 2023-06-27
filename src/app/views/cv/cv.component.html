@@ -11,17 +11,7 @@
             <span>Copenhagen, Denmark</span>
           </p>
         </div>
-        <app-each-section-exp [sectionHeader]="'SUMMARY'" [description]="'Front-end developer with 2+ years of experience designing and building responsive web design and mobile apps in the financial industry. Proficient with CSS and JS Frameworks, with extensive knowledge of UX and user psychology. Notable achievements include boosting the conversion rate of an existing website by 80% with improved code and design.'"></app-each-section-exp>
-        <app-each-section-exp [sectionHeader]="'EXPERIENCE'" [header]="'Front End Developer'" [subHeader]="'System & Metode A/S'" [description]="'System & Metode is a consulting company.'">
-          <ul class="features">
-            <li>Created highly search engine optimised websites.</li>
-            <li>Collaborated with a team to work on multiple clients/projects at the same time.</li>
-            <li>Created optimised angular components by reducing unnecessary render cycle.</li>
-            <li>Created many responsive websites, not just for few breakpoints but fluid width.</li>
-            <li>Project management using gitlab.</li>
-            <li>Managed shared angular component library to be used on multiple projects.</li>
-          </ul>
-        </app-each-section-exp>
+        <app-each-section-exp [data]="data"></app-each-section-exp>
       </div>
       <div class="skill-section">
         <div class="image">

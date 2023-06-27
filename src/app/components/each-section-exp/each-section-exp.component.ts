@@ -1,5 +1,15 @@
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
+interface IData {
+mainHeader: string;
+children: {
+  header?: string;
+  subHeader?: string;
+  description?: string;
+  features?: string[];
+}[];
+};
+
 @Component({
   selector: 'app-each-section-exp',
   templateUrl: './each-section-exp.component.html',
@@ -7,8 +17,9 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EachSectionExpComponent {
-  @Input() sectionHeader = '';
-  @Input() header = '';
-  @Input() subHeader = '';
-  @Input() description = '';
+  @Input() data: IData[] = [];
+
+  ngOnInit(){
+    console.log('hello.....');
+  }
 }

@@ -1,4 +1,6 @@
 import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+
 import { EachSectionExpComponent } from "./each-section-exp.component";
 
 @NgModule({
@@ -6,6 +8,7 @@ import { EachSectionExpComponent } from "./each-section-exp.component";
     EachSectionExpComponent
   ],
   imports: [
+    CommonModule,
   ],
   exports:[EachSectionExpComponent],
   providers: [],
