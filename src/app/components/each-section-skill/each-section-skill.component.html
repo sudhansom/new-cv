@@ -1,9 +1,9 @@
 <div class="skill">
-  <h4 class="header">{{ header }}</h4>
-  <p class="sub-header">{{ subHeader }}</p>
-  <p class="description">{{ description }}</p>
-  <p class="date">{{ date }}</p>
-  <ul *ngIf="features?.length">
+  <h4 *ngIf="header" class="header">{{ header }}</h4>
+  <p *ngIf="subHeader" class="sub-header">{{ subHeader }}</p>
+  <p *ngIf="description" class="description">{{ description }}</p>
+  <p *ngIf="date" class="date">{{ date }}</p>
+  <ul class="features" *ngIf="features?.length">
     <li *ngFor="let item of features">{{item}}</li>
   </ul>
   <ng-container *ngIf="lang?.length">
