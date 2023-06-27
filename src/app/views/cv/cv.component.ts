@@ -80,4 +80,58 @@ export class CvComponent {
     }
   ]
 
+  skill = [
+    {
+      header: 'Education',
+      subHeader: 'Master of Science in Information Systems',
+      description: 'Norwegian University of Science and Technology',
+      date: '2011 - 2013',
+      features: [],
+      lang: [],
+    },
+    {
+      header: 'Tech Stack',
+      subHeader: '',
+      description: '',
+      date: '',
+      features: ['JavaScripts', 'HTML5', 'CSS3', 'Angular', 'React', 'Node.js', 'Express', 'Docker', 'Git' ],
+      lang: [],
+    },
+    {
+      header: 'Languages',
+      subHeader: '',
+      description: '',
+      date: '',
+      lang: [
+        {
+          name: 'Nepali',
+          type: 'Native',
+          level: 5,
+        },
+        {
+          name: 'English',
+          type: 'Proficient',
+          level: 4,
+        }
+      ],
+      features: [],
+    },
+    {
+      header: 'Training/Cources',
+      subHeader: '',
+      description: '',
+      date: '',
+      features: [],
+      lang: [],
+    },
+    {
+      header: 'Passions',
+      subHeader: '',
+      description: '',
+      date: '',
+      features: ['Coding', 'Reading', 'Sports: Play football every sunday'],
+      lang: [],
+    }
+  ]
+
 }

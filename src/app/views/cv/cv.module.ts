@@ -6,6 +6,7 @@ import { Frame1Module } from 'src/app/frames/frame1/frame1.module';
 import { ContainerModule } from 'src/app/components/container/container.module';
 import { EachSectionExpModule } from 'src/app/components/each-section-exp/each-section-exp.module';
 import { EachSectionSkillModule } from 'src/app/components/each-section-skill/each-section-skill.module';
+import { CommonModule } from '@angular/common';
 
 const appRoutes: Routes = [
   {
@@ -23,6 +24,7 @@ const appRoutes: Routes = [
     ContainerModule,
     EachSectionExpModule,
     EachSectionSkillModule,
+    CommonModule,
   ],
   exports: [],
   providers: [],

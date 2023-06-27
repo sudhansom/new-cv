@@ -1,6 +1,18 @@
 <div class="skill">
-  <h4 class="header">Education</h4>
-  <p class="sub-header">Master of Science in Information Systems</p>
-  <p class="description">Norwegian University of Science and Technology</p>
-  <p class="date">2011 - 2013</p>
+  <h4 class="header">{{ header }}</h4>
+  <p class="sub-header">{{ subHeader }}</p>
+  <p class="description">{{ description }}</p>
+  <p class="date">{{ date }}</p>
+  <ul *ngIf="features?.length">
+    <li *ngFor="let item of features">{{item}}</li>
+  </ul>
+  <ng-container *ngIf="lang?.length">
+    <div class="language" *ngFor="let item of lang">
+      <span>{{item.name}}</span>
+      <span>{{ item.type }}</span>
+      <div class="marking">
+        <div class="mark" [ngClass]="i<item.level? '' : 'deem'" *ngFor="let aaa of numSequence(); let i = index"></div>
+      </div>
+    </div>
+  </ng-container>
 </div>

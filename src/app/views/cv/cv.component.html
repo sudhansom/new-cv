@@ -17,11 +17,18 @@
         <div class="image">
           <img src="../../../assets/images/my-image.png" alt="">
         </div>
-        <app-each-section-skill></app-each-section-skill>
-        <app-each-section-skill></app-each-section-skill>
-        <app-each-section-skill></app-each-section-skill>
-        <app-each-section-skill></app-each-section-skill>
-        <app-each-section-skill></app-each-section-skill>
+        <ng-container *ngIf="skill.length">
+          <app-each-section-skill
+             *ngFor="let item of skill"
+             [header]="item.header"
+             [subHeader]="item?.subHeader"
+             [description]="item?.description"
+             [date]="item.date"
+             [features]="item?.features"
+             [lang]="item?.lang"
+          >
+          </app-each-section-skill>
+        </ng-container>
       </div>
     </div>
   </app-container>
