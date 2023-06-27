@@ -47,6 +47,36 @@ export class CvComponent {
           ]
         }
       ]
+    },
+    {
+      mainHeader: 'Projects',
+      children: [
+        {
+          header: 'Front End Developer',
+          subHeader: 'System & Metode A/S',
+          description: 'System & Metode is a consulting company.',
+          features: [
+            'Created highly search engine optimised websites.',
+            'Collaborated with a team to work on multiple clients/projects at the same time.',
+            'Created optimised angular components by reducing unnecessary render cycle.',
+            'Created many responsive websites, not just for few breakpoints but fluid width.',
+            'Project management using gitlab.',
+            'Managed shared angular component library to be used on multiple projects.'
+          ]
+        },
+        {
+          header: 'Junior Front End Developer',
+          subHeader: 'Integrify Finland',
+          description: 'Integrify is a powerful, easy-to-use, low-code process application platform. Workflow software is what they do. They provide low-code, cloud-based software that helps automate processes and streamline workflow. ',
+          features: [
+            'Implemented Bootstrap and SASS through creating a to-do-list project with HTML and JavaScript.',
+            'I had the responsibility to train 4 people the front-end basics and helped them develop further.',
+            'Analyzed excessive amounts of data and extracted information from MongoDB Compass using the front-end and back-end framework such as NodeJS, Express and React. ',
+            'Created many responsive websites, not just for few breakpoints but fluid width.',
+            'Developed application integrations with RestAPI to improve data collection.',
+          ]
+        }
+      ]
     }
   ]
 
