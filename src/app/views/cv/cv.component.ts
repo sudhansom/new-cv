@@ -129,7 +129,7 @@ export class CvComponent {
       subHeader: '',
       description: '',
       date: '',
-      features: ['Coding', 'Reading', 'Sports: Play football every sunday'],
+      features: ['Coding', 'Reading', 'Sports: Play football every Sunday'],
       lang: [],
     }
   ]
