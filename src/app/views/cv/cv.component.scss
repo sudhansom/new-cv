@@ -2,18 +2,27 @@
   .content {
     display: grid;
     grid-template-columns: 5fr 2fr;
-    border: 1px solid green;
 
     .name-section {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 24px;
       padding: 60px calc(var(--content-margin) * 1.5);
 
-      background: white;
+      background: #e9e9eb;
       // background-image: radial-gradient(rgb(221, 217, 217) 4px, transparent 0);
       // background-size: 10px 10px;
       // background-position: -19px -19px;
+
+      .features {
+        padding: 0;
+        margin: 0;
+        list-style-type: circle;
+        color: rgb(47, 45, 45);
+        li {
+          margin: 6px 12px;
+        }
+      }
 
       .name {
         h2 {
@@ -60,29 +69,6 @@
         img {
           max-width: 100%;
           display: block;
-        }
-      }
-
-      .skill {
-        display: flex;
-        flex-direction: column;
-        gap: 9px;
-        .header {
-          font-size: 30px;
-          padding-bottom: 6px;
-          border-bottom: 1px solid #fff;
-        }
-        .sub-header {
-          font-size: 20px;
-          line-height: 1.1;
-        }
-        .description {
-          font-size: 16px;
-          line-height: 1.1;
-        }
-        .date {
-          font-size: 16px;
-          font-style: italic;
         }
       }
     }

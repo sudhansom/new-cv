@@ -1,5 +1,7 @@
-<div class="width-margin">
-  <div class="max-width">
-    <ng-content></ng-content>
-  </div>
+<div class="each-section">
+  <h2>{{ sectionHeader }}</h2>
+  <p class="header">{{ header }}</p>
+  <p class="sub-header">{{ subHeader }}</p>
+  <p class="description">{{ description }}</p>
+  <ng-content></ng-content>
 </div>

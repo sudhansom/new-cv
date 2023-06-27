@@ -1,0 +1,27 @@
+:host {
+  display: block;
+  .skill {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    .header {
+      font-size: 30px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #fff;
+      font-weight: 400;
+    }
+    .sub-header {
+      font-size: 20px;
+      line-height: 1.1;
+      font-weight: 400;
+    }
+    .description {
+      font-size: 16px;
+      line-height: 1.1;
+    }
+    .date {
+      font-size: 16px;
+      font-style: italic;
+    }
+  }
+}
