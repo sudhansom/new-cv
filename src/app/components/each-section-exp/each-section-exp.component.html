@@ -9,7 +9,7 @@
         <ul class="features" *ngIf="each?.features">
           <li *ngFor="let feature of each?.features">{{ feature }}</li>
         </ul>
-        <a *ngIf="each?.link" [href]="each?.link">{{each?.link}}</a>
+        <a *ngIf="each?.link" [href]="each?.link" target="_blank">{{each?.link}}</a>
       </div>
     </ng-container>
   </div>
