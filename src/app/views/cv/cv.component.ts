@@ -14,7 +14,7 @@ export class CvComponent {
         {
           header: '',
           subHeader: '',
-          description: 'Front-end developer with 2+ years of experience designing and building responsive web design and mobile apps in the financial industry. Proficient with CSS and JS Frameworks, with extensive knowledge of UX and user psychology. Notable achievements include boosting the conversion rate of an existing website by 80% with improved code and design.',
+          description: 'As a frontend developer, I have a strong command of JavaScript, HTML, and CSS. I am proficient in frameworks such as React and Angular, enabling me to create highly search engine optimised websites. My expertise lies in writing clean code and optimising render cycles, resulting in responsive sites with fluid width. Additionally, I possess knowledge of  Backend using Express and Node.JS and my familiarity with Git allows me to effectively manage team projects.',
         }
       ]
     },
@@ -24,7 +24,7 @@ export class CvComponent {
         {
           header: 'Front End Developer',
           subHeader: 'System & Metode A/S',
-          description: 'System & Metode is a consulting company.',
+          description: 'System & Metode A/S is a technology company specializing in software development and IT solutions. With expertise in various industries, we offer tailored systems, consultancy services, and innovative approaches to optimize business processes.',
           date: '06/2022 - ongoing',
           address: 'Horsholm, Denmark',
           features: [
