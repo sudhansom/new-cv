@@ -62,7 +62,10 @@
     .skill-section {
       background-color: var(--secondary-color);
       color: #fff;
-      padding: calc(var(--content-margin) * 1.5);
+      padding: 30px var(--content-margin);
+      @media(min-width: 768px){
+        padding: 60px calc(var(--content-margin) * 1.5);
+      }
       display: flex;
       flex-direction: column;
       gap: calc(var(--content-margin) * 1.5);
