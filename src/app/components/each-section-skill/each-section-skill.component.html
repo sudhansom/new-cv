@@ -15,4 +15,11 @@
       </div>
     </div>
   </ng-container>
+  <ng-container *ngIf="all?.length">
+    <div class="courses" *ngFor="let course of all">
+      <p class="institute">{{ course.subHeader}}</p>
+      <p class="description">{{ course.description}}</p>
+      <p class="date">{{ course.date}}</p>
+    </div>
+  </ng-container>
 </div>

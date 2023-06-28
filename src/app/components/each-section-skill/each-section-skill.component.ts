@@ -6,6 +6,12 @@ interface ILanguage {
   level: number
 }
 
+interface IAll {
+  subHeader: string,
+  description: string,
+  date: string,
+}
+
 @Component({
   selector: 'app-each-section-skill',
   templateUrl: './each-section-skill.component.html',
@@ -20,6 +26,7 @@ export class EachSectionSkillComponent {
   @Input() date? = '';
   @Input() features?:string[] = [];
   @Input() lang?: ILanguage[] = [] ;
+  @Input() all?: IAll[] = [];
 
   numSequence(){
     return Array.from(Array(5));

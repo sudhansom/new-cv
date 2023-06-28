@@ -19,13 +19,13 @@
 
       .name {
         h2 {
-          font-size: 36px;
+          font-size: var(--heading-1);
           margin-bottom: 9px;
           font-weight: 400;
           color: rgb(77, 76, 76);
         }
         h4 {
-          font-size: 24px;
+          font-size: var(--heading-3);
           margin-bottom: 9px;
           color: rgb(46, 127, 208);
           font-weight: 400;

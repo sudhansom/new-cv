@@ -3,8 +3,8 @@
     <h2 *ngIf="item.mainHeader">{{ item.mainHeader}}</h2>
     <ng-container *ngIf="item.children.length">
       <div *ngFor="let each of item.children">
-        <p *ngIf="each?.header" class="header">{{each?.header}}</p>
-        <p *ngIf="each?.subHeader" class="sub-header">{{each?.subHeader}}</p>
+        <p *ngIf="each?.header" class="header">{{each?.header}} <span>{{each?.date}}</span></p>
+        <p *ngIf="each?.subHeader" class="sub-header">{{each?.subHeader}} <span>{{each?.address}}</span></p>
         <p *ngIf="each?.description" class="description">{{each?.description}}</p>
         <ul class="features" *ngIf="each?.features">
           <li *ngFor="let feature of each?.features">{{ feature }}</li>

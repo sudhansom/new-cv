@@ -25,6 +25,8 @@ export class CvComponent {
           header: 'Front End Developer',
           subHeader: 'System & Metode A/S',
           description: 'System & Metode is a consulting company.',
+          date: '06/2022 - ongoing',
+          address: 'Horsholm, Denmark',
           features: [
             'Created highly search engine optimised websites.',
             'Collaborated with a team to work on multiple clients/projects at the same time.',
@@ -38,6 +40,8 @@ export class CvComponent {
           header: 'Junior Front End Developer',
           subHeader: 'Integrify Finland',
           description: 'Integrify is a powerful, easy-to-use, low-code process application platform. Workflow software is what they do. They provide low-code, cloud-based software that helps automate processes and streamline workflow. ',
+          date: '02/2021 - 05/2022',
+          address: 'Finland(Remote)',
           features: [
             'Implemented Bootstrap and SASS through creating a to-do-list project with HTML and JavaScript.',
             'I had the responsibility to train 4 people the front-end basics and helped them develop further.',
@@ -112,6 +116,11 @@ export class CvComponent {
           name: 'English',
           type: 'Proficient',
           level: 4,
+        },
+        {
+          name: 'Danish',
+          type: 'Intermediate',
+          level: 2,
         }
       ],
       features: [],
@@ -123,6 +132,23 @@ export class CvComponent {
       date: '',
       features: [],
       lang: [],
+      all: [
+        {
+          subHeader: 'CSS Demestified',
+          description: 'CSS/HTML by youtouber: Kevin Powel',
+          date: '2021',
+        },
+        {
+          subHeader: 'Software Development Academy',
+          description: 'Python from scratch',
+          date: '2020',
+        },
+        {
+          subHeader: 'HackerRank, FrontEnd Expert',
+          description: 'Solved more than 500 interview questions',
+          date: '2019',
+        },
+      ]
     },
     {
       header: 'Passions',

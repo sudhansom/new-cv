@@ -5,7 +5,7 @@
     flex-direction: column;
     gap: 9px;
     .header {
-      font-size: 30px;
+      font-size: var(--heading-2);
       padding-bottom: 6px;
       border-bottom: 1px solid #fff;
       font-weight: 400;
@@ -41,6 +41,21 @@
           background-color: #7c7878;
 
         }
+      }
+    }
+    .courses {
+      margin-bottom: 16px;
+      .institute {
+        font-size: 20px;
+        margin-bottom: 6px;
+      }
+      .description {
+        font-size: 16px;
+        margin-bottom: 6px;
+        line-height: 1.3;
+      }
+      .date {
+        font-style: italic;
       }
     }
     .features {

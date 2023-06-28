@@ -1,5 +1,5 @@
 <app-frame1>
-  <app-container style="--max-content-width:1000px;--content-margin:24px;">
+  <app-container>
     <div class="content">
       <div class="name-section">
         <div class="name">
@@ -26,6 +26,7 @@
              [date]="item.date"
              [features]="item?.features"
              [lang]="item?.lang"
+             [all]="item?.all"
           >
           </app-each-section-skill>
         </ng-container>

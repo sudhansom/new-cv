@@ -7,6 +7,8 @@ children: {
   subHeader?: string;
   description?: string;
   features?: string[];
+  date?: string;
+  address?: string;
 }[];
 };
 
