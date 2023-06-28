@@ -9,6 +9,7 @@ children: {
   features?: string[];
   date?: string;
   address?: string;
+  link?: string;
 }[];
 };
 

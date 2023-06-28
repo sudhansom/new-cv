@@ -7,10 +7,23 @@
 :root {
   --max-content-width: 1000px;
   --content-margin: 24px;
-  --heading-1: 36px;
-  --heading-2: 30px;
-  --heading-3: 24px;
-  --heading-4: 22px;
-  --heading-5: 20px;
+  --heading-1: 30px;
+  --heading-2: 24px;
+  --heading-3: 22px;
+  --heading-4: 18px;
+  --heading-5: 16px;
+
+  @media(min-width: 768px){
+    --heading-1: 36px;
+    --heading-2: 30px;
+    --heading-3: 24px;
+    --heading-4: 22px;
+    --heading-5: 20px;
+  }
+
+  --background-color: #e9e9eb;
+  --primary-color: rgb(46, 127, 208);
+  --secondary-color: #214263;
+  --text-color: rgb(47, 45, 45);
 
 }
