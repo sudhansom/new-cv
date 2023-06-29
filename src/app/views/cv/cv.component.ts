@@ -58,7 +58,7 @@ export class CvComponent {
         {
           header: 'All Countries Information',
           subHeader: '',
-          description: 'Get all Information from each countries in the world.',
+          description: 'Get all Information from each country in the world.',
           features: [
             'Customize column: select column name of your choice.',
             'Search a single country / select a single countries detail in separate page.',
