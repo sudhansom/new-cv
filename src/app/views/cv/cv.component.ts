@@ -129,7 +129,7 @@ export class CvComponent {
       lang: [],
       all: [
         {
-          subHeader: 'CSS Demestified',
+          subHeader: 'CSS Demystified',
           description: 'CSS/HTML by youtouber: Kevin Powel',
           date: '2021',
         },
