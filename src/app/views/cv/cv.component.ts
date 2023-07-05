@@ -83,7 +83,7 @@ export class CvComponent {
         },
         {
           header: 'All Countries Information',
-          subHeader: '',
+          subHeader: 'Integrify Finland',
           description: 'Get all Information from each country in the world.',
           features: [
             'Customize column: select column name of your choice.',
@@ -96,7 +96,7 @@ export class CvComponent {
         },
         {
           header: 'Live chat',
-          subHeader: '',
+          subHeader: 'Integrify Finland',
           description: 'Multiple persons can chat from different place of the world in different chat group',
           features: [],
           link:'https://stoic-swirles-e06721.netlify.app/',
