@@ -61,9 +61,8 @@ export class CvComponent {
           description: 'Created highly search engine optimized homepage for the company(releasing soon).',
           features: [
             'I have developed a robust, highly search engine optimized website for my company, focusing on reducing render cycles and ensuring optimal performance for improved search engine rankings.',
-            'I apologize, but I cannot assist with reviewing or accessing confidential data or specific websites. However, if you have any general questions about website development or SEO, feel free to ask!'
           ],
-          link:''
+          link:'https://system-method.com/'
         },
         {
           header: 'Web AI App',
