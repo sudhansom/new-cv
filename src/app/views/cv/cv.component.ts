@@ -58,7 +58,7 @@ export class CvComponent {
         {
           header: 'Home Page',
           subHeader: 'System & Metode',
-          description: 'Created highly search engine optimized homepage for the company(releasing soon).',
+          description: 'Created highly search engine optimized homepage for the company.',
           features: [
             'I have developed a robust, highly search engine optimized website for my company, focusing on reducing render cycles and ensuring optimal performance for improved search engine rankings.',
           ],
