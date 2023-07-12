@@ -14,7 +14,7 @@ export class CvComponent {
         {
           header: '',
           subHeader: '',
-          description: 'As a frontend developer, I have a strong command of JavaScript, HTML, and CSS. I am proficient in frameworks such as React and Angular, enabling me to create highly search engine optimised websites. My expertise lies in writing clean code and optimising render cycles, resulting in responsive sites with fluid width. Additionally, I possess knowledge of  Backend using Express and Node.JS and my familiarity with Git allows me to effectively manage team projects.',
+          description: 'As a frontend developer, I have a strong command of JavaScript, HTML, and CSS. I am proficient in frameworks such as React and Angular, enabling me to create highly search engine optimised websites. My expertise lies in writing clean and optimised code, resulting in fast and responsive web-apps. Additionally, I possess knowledge of  Backend using Express and Node.JS and my familiarity with Git allows me to effectively manage team projects.',
         }
       ]
     },
@@ -43,11 +43,10 @@ export class CvComponent {
           date: '07/2021 - 05/2022',
           address: 'Finland(Remote)',
           features: [
-            'Implemented Bootstrap and SASS through creating a to-do-list project with HTML and JavaScript.',
-            'I had the responsibility to train 4 people the front-end basics and helped them develop further.',
-            'Analyzed excessive amounts of data and extracted information from MongoDB Compass using the front-end and back-end framework such as NodeJS, Express and React. ',
-            'Created many responsive websites, not just for few breakpoints but fluid width.',
-            'Developed application integrations with RestAPI to improve data collection.',
+            'I developed a todo app project using JavaScript/React, integrating Bootstrap and Sass for styling and design.',
+            'As a mentor, I guided and supported four individuals in their React projects, assisting them throughout the development process.',
+            'I successfully built a full-stack project using MongoDB as the database, React for the frontend, Node.js for the backend, and implemented RESTful APIs for communication between the different layers of the application.',
+            'Created responsive websites, not just for few breakpoints but fluid width.',
           ]
         }
       ]
@@ -84,7 +83,7 @@ export class CvComponent {
         {
           header: 'All Countries Information',
           subHeader: 'Integrify Finland',
-          description: 'Get all Information from each country in the world.',
+          description: 'Get all information from each country in the world.',
           features: [
             'Customize column: select column name of your choice.',
             'Search a single country / select a single countries detail in separate page.',
@@ -119,7 +118,7 @@ export class CvComponent {
       subHeader: '',
       description: '',
       date: '',
-      features: ['JavaScripts', 'HTML5', 'CSS3', 'Angular', 'React', 'Node.js', 'Express', 'Docker', 'Git', 'Cypress' ],
+      features: ['JavaScript', 'HTML5', 'CSS3', 'Angular', 'React', 'Node.js', 'Express', 'Docker', 'Git'],
       lang: [],
     },
     {
