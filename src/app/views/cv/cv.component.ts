@@ -119,7 +119,7 @@ export class CvComponent {
       subHeader: '',
       description: '',
       date: '',
-      features: ['JavaScripts', 'HTML5', 'CSS3', 'Angular', 'React', 'Node.js', 'Express', 'Docker', 'Git' ],
+      features: ['JavaScripts', 'HTML5', 'CSS3', 'Angular', 'React', 'Node.js', 'Express', 'Docker', 'Git', 'Cypress' ],
       lang: [],
     },
     {
