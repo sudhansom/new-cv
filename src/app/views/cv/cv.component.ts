@@ -46,6 +46,7 @@ export class CvComponent {
             'Collaborating with the group of developers and designers with effective communication.',
             'Employing pure CSS, Tailwind CSS, and Material Design for diverse and visually appealing styling.',
           ],
+          link: 'https://www.ai.dtu.dk/tools/chattutor/',
         },
         {
           header: 'Front End Developer',
