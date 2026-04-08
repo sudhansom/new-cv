@@ -14,7 +14,7 @@ export class CvComponent {
           header: '',
           subHeader: '',
           description:
-            'As a frontend developer, I have a strong command of JavaScript, HTML, and CSS. I am proficient in frameworks such as React and Angular, enabling me to create highly search engine optimised websites. My expertise lies in writing clean and optimised code, resulting in fast and responsive web-apps. Additionally, I possess knowledge of  Backend using Express and Node.JS and my familiarity with Git allows me to effectively manage team projects.',
+            'I have a strong background in web development with 5+ years of working experience. Proficient in frameworks/libraries such as Angular, Vue and Node.js enabling the creation of highly search engine optimized websites. Motivated by a genuine thirst for knowledge, I actively stay notified of the latest updates in the tech sector and have an ability to swiftly adapt to new tech stacks. Blending academic knowledge with hands-on experience, I believe I have the skills to excel with the team I join',
         },
       ],
     },
