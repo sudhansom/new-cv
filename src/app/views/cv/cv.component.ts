@@ -19,8 +19,34 @@ export class CvComponent {
       ],
     },
     {
-      mainHeader: 'Experience',
+      mainHeader: 'Experiences',
       children: [
+        {
+          header: 'Frontend Developer',
+          subHeader: 'B&BTech, Japan',
+          description:
+            'B&BTech is a technology company in Japan that specializes in software development and IT solutions. With expertise in various industries, we offer tailored systems, consultancy services, and innovative approaches to optimize business processes.',
+          date: '03/2025 - Present',
+          address: 'Tokyo, Japan',
+          features: [
+            'Developing responsive single-page applications (SPAs) using Angular, TypeScript and Node.js. ',
+            'Building reusable, modular Angular components and services for scalable architecture.',
+            'Implementing form handling and validation using Reactive Forms and Template-driven Forms.',
+          ],
+        },
+        {
+          header: 'Full Stack Developer, ChatTutor',
+          subHeader: 'DTU, Denmark',
+          description:
+            'DTU is a technical university in Denmark that offers a wide range of programs in engineering, science, and technology. It is known for its strong emphasis on research and innovation, providing students with opportunities to engage in cutting-edge projects and collaborate with industry partners.',
+          date: '02/2024 - 03/2025',
+          address: 'Lyngby, Denmark',
+          features: [
+            'Achieving a well-organized application by implementing MVC patterns and single page components. ',
+            'Collaborating with the group of developers and designers with effective communication.',
+            'Employing pure CSS, Tailwind CSS, and Material Design for diverse and visually appealing styling.',
+          ],
+        },
         {
           header: 'Front End Developer',
           subHeader: 'System & Metode A/S',
